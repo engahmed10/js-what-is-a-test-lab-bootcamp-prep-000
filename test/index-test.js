@@ -9,7 +9,7 @@ describe('ahmed afandy', () => {
 
 
   describe('Height', () => {
-    it('is less than 40', () => {
+    it('is 40', () => {
       expect(index.height).toBeLessThan(40)
     })
   })
