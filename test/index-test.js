@@ -1,15 +1,15 @@
 var index = require("../index.js")
 
-describe('ahmed afandy', () => {
+describe('what-is-a-test', () => {
   describe('Name', () => {
-    it('returns "Susan"', () => {
+    it('rerns "Susan"', () => {
       expect(index.name).toEqual('Susan')
     })
   })
 
 
   describe('Height', () => {
-    it('is 40', () => {
+    it('is less than 40', () => {
       expect(index.height).toBeLessThan(40)
     })
   })
